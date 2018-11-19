@@ -4,7 +4,7 @@
   "description": "FronTek, A simple frontend UI FrameStack consists of customized most popular UI Framework Bootstrap, CSS preprocessor SCSS and CSS architecture with BEM.",
   "main": "dist/main.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node-sass scss/main.scss css/main.css -w"
   },
   "keywords": [
     "FronTek",
