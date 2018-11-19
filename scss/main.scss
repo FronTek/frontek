@@ -1,0 +1,16 @@
+// customized bootstrap
+@import "bootstrap-custom";
+
+// >>>>>>>>>>>>> Base-Setup <<<<<<<<<<<<<
+
+@import "base/base";
+@import "base/typography";
+
+// >>>>>>>>>>>>> Components <<<<<<<<<<<<<
+@import "components/buttons";
+
+// >>>>>>>>>>>>> Layouts <<<<<<<<<<<<<
+@import "layout/header";
+
+// >>>>>>>>>>>>> Pages <<<<<<<<<<<<<
+@import "pages/home";
