@@ -10,6 +10,7 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.hbs$/, loader: "handlebars-loader" },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -32,7 +33,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: false,
       hash: true,
-      template: "./src/index.html",
+      template: "./src/index.hbs",
       filename: "index.html"
     })
   ]

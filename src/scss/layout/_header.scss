@@ -1,1 +1,11 @@
 // style setup for header layout
+.header {
+  height: 100vh;
+}
+
+.main-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
